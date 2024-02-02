@@ -1,0 +1,89 @@
+body {
+
+    display: flex;
+    justify-content: center;
+    background-color: #370617;
+}
+
+.container-row {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.container {
+    display: flex;
+    border: 5px;
+    width: 468px;
+    height: 160px;
+    padding: 20px;
+    background-color: #F48C06;
+    border-radius: 10px;
+    gap: 20px;
+
+}
+
+.container.first{
+    justify-content: flex-start;
+    align-items: flex-end;
+
+
+}
+
+.container.second .card {
+    height: 90%;
+}
+
+.container.second {
+    justify-content: center;
+    align-items: center;
+}
+
+.container.third {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container.fourth .card.last {
+    align-self: flex-end;
+}
+
+.container.fourth {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.container.fith .card.first {
+    height: 90%;
+}
+
+.container.fith .card.last {
+    height: 90%;
+}
+
+.container.fith {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container.sixth .card.middle {
+    flex-grow: 2;
+}
+
+.container.sixth {
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 78px;
+    height: 78px;
+    background-color: #9D0208;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+
